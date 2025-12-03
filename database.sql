@@ -37,8 +37,8 @@ CREATE TABLE Transactions (
 
 INSERT INTO Customers 
 VALUES
-('Ahmed Ali', 'ahmed@example.com', '0612345678'),
-('Sara Mohamed', 'sara@example.com', '0623456789'),
-('Mohamed Yassin', 'yassin@example.com', '0634567891');
+('amine elarar', 'amine@', '0612013501'),
+('Sara b', 'sara@', '06234567'),
+('AZIZ elarar', 'AZIZ@', '0634567998');
 
 
