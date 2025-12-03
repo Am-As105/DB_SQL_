@@ -17,7 +17,7 @@ CREATE TABLE Advisors(
 CREATE TABLE Transactions (
     transaction_id INT AUTO_INCREMENT PRIMARY KEY,
     amount DECIMAL(10,2),
-    transaction_type ENUM('debit', 'credit') ,
+    transaction_type ENUM('debit','credit') ,
     transaction_date DATE,
     accountid INT,
     FOREIGN KEY (accountid) REFERENCES Accounts(account_id)
