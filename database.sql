@@ -14,6 +14,14 @@ CREATE TABLE Advisors(
     full_name VARCHAR(100) ,
     email VARCHAR(100)
 );
+CREATE TABLE Transactions (
+    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+    amount DECIMAL(10,2),
+    transaction_type ENUM('debit', 'credit') ,
+    transaction_date DATE,
+    accountid INT,
+    FOREIGN KEY (accountid) REFERENCES Accounts(account_id)
+);
 
 CREATE TABLE Accounts (
     account_id INT AUTO_INCREMENT PRIMARY KEY,
@@ -25,14 +33,7 @@ CREATE TABLE Accounts (
     FOREIGN KEY (customerid) REFERENCES Customers(customer_id),
     FOREIGN KEY (advisorid) REFERENCES Advisors(advisor_id)
 );
-CREATE TABLE Transactions (
-    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
-    amount DECIMAL(10,2),
-    transaction_type ENUM('debit', 'credit') ,
-    transaction_date DATE,
-    accountid INT,
-    FOREIGN KEY (accountid) REFERENCES Accounts(account_id)
-);
+
 
 
 INSERT INTO Customers 
