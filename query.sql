@@ -19,7 +19,7 @@ select * from accounts where balance <= 0
 
 select * from Transactions where transaction_type = 'debit'
 
--- select * from Transactions where transaction_type = 'credit'
+select * from Transactions where transaction_type = 'credit'
 
 -- select * from Transactions where accountId = 1
 
