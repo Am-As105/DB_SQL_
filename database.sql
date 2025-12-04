@@ -59,12 +59,11 @@ VALUES
 
 INSERT INTO Accounts 
 VALUES 
-( 20 , 2000.00, 'Checking',1 , 10);
-( 21 , 2032.00, 'Checking',2 , 11);
-( 22 , 2044.00, 'Business',3 , 12);
-( 23 , 2090.00, 'Savings',1 , 13);
-( 25 , 2032.00, 'Checking',2 , 14);
+( 20 , 2000.00, 'Checking',1 , 10),
+( 21 , 2032.00, 'Checking',2 , 11),
+( 22 , 2044.00, 'Business',3 , 12),
+( 23 , 2090.00, 'Savings',1 , 13),
+( 25 , 2032.00, 'Checking',2 , 14),
 ( 26 , 2054.00, 'Savings',3 , 15);
-
 
 
