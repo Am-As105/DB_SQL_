@@ -17,7 +17,7 @@ select * from accounts where balance > 10000
 
 select * from accounts where balance <= 0
 
--- select * from Transactions where transaction_type = 'debit'
+select * from Transactions where transaction_type = 'debit'
 
 -- select * from Transactions where transaction_type = 'credit'
 
