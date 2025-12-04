@@ -23,7 +23,7 @@ select * from Transactions where transaction_type = 'credit'
 
 select * from Transactions where accountId = 1
 
--- select distinct * from Customers c join accounts a on c.customer_id = a.customerId where a.advisorId = 2
+select distinct * from Customers c join accounts a on c.customer_id = a.customerId where a.advisorId = 2
 
 -- select * from accounts where account_type = 'Savings'
 
