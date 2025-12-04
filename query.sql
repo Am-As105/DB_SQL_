@@ -1,4 +1,4 @@
-insert into Customers values (6, 'khadij','kh@gmail.com','0612013501','2007-09-28')
+insert into Customers values (6, 'khadija','kh@gmail.com','0612013501','2007-09-28')
 
 update Customers set phone ='0612013501' where full_name ='Amine elarar'
 
